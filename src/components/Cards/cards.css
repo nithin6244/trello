@@ -1,0 +1,22 @@
+
+.cardsContainer{
+    /* height: 90vh; */
+    width: 98%;
+    margin: 0 auto;
+    padding: 1em;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+     /* justify-content: center; */
+  
+}
+
+
+/* For Responsive Design */
+@media screen and (max-width:950px) {
+    .cardsContainer{
+        flex-direction: column;
+        align-items: center;
+        }
+    
+}

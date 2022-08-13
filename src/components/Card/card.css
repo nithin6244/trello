@@ -1,0 +1,48 @@
+/* Main Card Container */
+.cardContainer{
+    width: 19.5%;
+    height: 180px;
+    margin-left: 1px;
+    margin-top: 10px;
+    background-color: #ffe4c4;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 0.5em;
+
+}
+
+
+/* Card Description */
+.cardDescription{
+    margin-top: 1em;
+}
+
+.button button{
+    border: none;
+    outline: none;
+    margin-top: 1em;
+    background-color: #dc3545;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+.button button:hover{
+    background-color: #f36775;
+}
+
+
+/* For Responsive Design */
+@media screen and (max-width:950px) {
+    .cardContainer{
+        width: 90%;
+        height: 250px;
+        align-items: center;
+        
+        }
+  
+      
+}

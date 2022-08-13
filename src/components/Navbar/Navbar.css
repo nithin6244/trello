@@ -1,0 +1,49 @@
+/* main container of navbar */
+.mainNavContainer {
+  height: 7rem;
+  background-color: #606469;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Relevel logo */
+.logo {
+  height: 6rem;
+  margin: 1em;
+}
+
+/* Logo Image */
+.logo img {
+  height: 100%;
+}
+
+/* Navbar title */
+.title p {
+  font-size: 3rem;
+  margin-left: 0.5em;
+  color: rgb(8, 8, 112);
+}
+
+.searchBar {
+  width: 40%;
+  display: flex;
+  margin-left: 10%;
+  background-color: rgb(223, 217, 209);
+  border-radius: 5px;
+}
+
+.searchBar input {
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(223, 217, 209);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.searchBar span {
+  padding: 8px 15px;
+  cursor: pointer;
+}
